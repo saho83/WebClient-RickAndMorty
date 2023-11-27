@@ -1,4 +1,11 @@
 package com.example.webclient;
 
-public record RickAndMortyCharacter() {
+import java.util.List;
+
+public record RickAndMortyCharacter(
+
+        List<RickAndMortyResults> results
+
+
+) {
 }
